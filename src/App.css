@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+.App{
+  margin: 20px auto;
+  max-width: 450px;
+  background-color: rgb(145, 145, 108);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  padding: 0;
+  margin: 0 auto;
+  background-color: rgb(225, 225, 194);
+  font-family: 'Nunito Sans', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+input{
+   margin: 0 auto;
+   flex: 1;
+   background-color:rgb(250, 248, 243) ;
+   padding: 10px;
+   margin: 20px;
+   font-size: 14px;
+   border: none;
+   box-shadow: 2px 2px 10px rgb(212, 198, 171);
+}
+.container{
+display: flex;
+justify-content: center;
+}
+.crossed{
+  text-decoration: line-through 1px rgb(247, 130, 58);
+}
+.ul{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0 auto;
+  width: 70%;
 }
 
-.App-link {
-  color: #61dafb;
+ul,li{
+  list-style-type: none;
+  padding: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li{
+  background-color:rgb(225, 225, 194) ;
+  border: none;
+  margin-bottom: 5px;
+}
+button{
+   width: 70%;
+   background-color:rgb(245, 209, 142) ;
+   padding: 10px;
+   margin: 10px;
+   font-size: 14px;
+   border: none;
+   box-shadow: 2px 2px 10px rgb(212, 198, 171);
+}
+img{
+margin-bottom: 40px;
 }
